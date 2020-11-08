@@ -1,0 +1,59 @@
+.container {
+  .container_Dtail {
+    width: 100%;
+    height: 1800px;
+    .baner {
+      width: 95%;
+      height: 557px;
+      margin: 78px 0 0 69px;
+      padding-top: 30px;
+      .hero_Image {
+        width: 90%;
+        height: 557px;
+        overflow: hidden;
+        margin-left: 2%;
+        margin-right: 2%;
+
+        img {
+          height: 100%;
+          width: 1480px;
+
+        }
+
+      }
+      .anges {
+        width: 4%;
+        height: 201px;
+        position: fixed;
+        top: 109px;
+        right: 2%;
+        border: 1px solid #ebebeb;
+        border-top: none;
+        .ic {
+          width: 100%;
+          height: 67px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-top: 1px solid #ebebeb;
+
+            .close {
+              width: 15px;
+            }
+           .eng {
+             width: 9px;
+             height: 17px;
+
+           }
+
+
+
+
+        }
+
+      }
+
+
+    }
+  }
+}
