@@ -80,16 +80,21 @@ header {
 
 ul.droop 	{
 	position: absolute;
+	display: block;
 	top: 79px;
 	//right:-10px;
 	height: 202px;
-	display: none;
+	opacity: 0;
+	visibility: hidden;
+	transition-property: opacity, visibility;
+	transition-duration: 0.2s;
+	transition-delay: 0.15s;
 	width: 185px;
 	 border: .1px solid #000000;
 	border-top: none;
 
-	box-shadow: 1px 2px 5px rgba(203, 203, 203, .7 );
-	transition: .7s ease ;
+	box-shadow: 1px 1px 5px rgba(203, 203, 203, .5 );
+
 	
 
 
@@ -145,5 +150,7 @@ ul.droop 	{
 }
 
 li.share:hover ul.droop {
+	opacity: 1;
 	display: block;
+	visibility: visible;
 }
