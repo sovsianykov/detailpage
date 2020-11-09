@@ -1,0 +1,71 @@
+.container {
+  .container_Dtail {
+    section {
+      display: flex;
+      width: 100%;
+      min-height: 800px;
+      //background: #a8cfdd;
+      margin: 60px 0 0 69px;
+
+
+      .detail_Sidebar {
+        width: 21%;
+        height: 219px;
+        //border: 1px solid black;
+        margin-left: 2%;
+        .dat {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          text-align: right;
+          width: 200px;
+          height: 73px;
+          border-bottom: 1px solid #e7e7e7;
+          margin-left: auto;
+
+          h3 {
+
+            font-family: OpenSansb;
+            font-size: 13px;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: -0.26px;
+            color: #313131;
+          }
+
+          p {
+            margin-top: -25px;
+            font-size: 13px;
+            font-family: OpenSansR;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: -0.26px;
+            color: #585858;
+
+          }
+
+
+        }
+        .shr {
+          text-align: right;
+          h3 {
+            margin-top: 12px;
+            font-family: OpenSansb;
+            font-size: 13px;
+            font-stretch: normal;
+            font-style: normal;
+            letter-spacing: -0.26px;
+            color: #313131;
+          }
+          .ic_Row {
+            margin-top: 12px;
+            font-size: 26px;
+          }
+
+        }
+
+
+      }
+    }
+  }
+}
