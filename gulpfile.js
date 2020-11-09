@@ -1,4 +1,4 @@
-Яconst gulp = require('gulp'),
+const gulp = require('gulp'),
     sass = require('gulp-sass'),
     prefixer = require('gulp-autoprefixer'),
     sourcemaps = require('gulp-sourcemaps'),

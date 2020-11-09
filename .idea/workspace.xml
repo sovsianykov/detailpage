@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad5c3e2a-3b19-49e9-9179-7fe0f6f812f8" name="Default Changelist" comment="" />
+    <list default="true" id="ad5c3e2a-3b19-49e9-9179-7fe0f6f812f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +63,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1jrlJi3yQShfA4170PuBXMIkFMA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,6 +80,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\DATA\Kristina lessons\TESTASK\sovsianykov-fr_10\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -83,6 +115,7 @@
       <workItem from="1604570025487" duration="15137000" />
       <workItem from="1604764717624" duration="4645000" />
       <workItem from="1604870948406" duration="7506000" />
+      <workItem from="1604906528017" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1604571502170</created>
@@ -118,6 +151,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
@@ -134,6 +178,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="20" key="CommitChangelistDialog2/0.0.1920.1040/1920.12.1920.1040@0.0.1920.1040" timestamp="1604675400967" />
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom" timestamp="1604906642872">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1604906642872" />
+    <state width="1419" height="203" key="GridCell.Tab.0.center" timestamp="1604906642870">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1604906642870" />
+    <state width="1419" height="203" key="GridCell.Tab.0.left" timestamp="1604906642869">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1604906642869" />
+    <state width="1419" height="203" key="GridCell.Tab.0.right" timestamp="1604906642871">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1604906642871" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1604871029112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
