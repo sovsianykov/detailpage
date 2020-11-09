@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad5c3e2a-3b19-49e9-9179-7fe0f6f812f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sovsianykov-fr_10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/detail_Article.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/icon-fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/icon-fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/detail_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/detail_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/detail_Article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/detail_Article.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604675402492</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Detail sidebar">
+      <created>1604920936784</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604920936784</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,17 +137,18 @@
     <MESSAGE value="first" />
     <MESSAGE value="sidebar" />
     <MESSAGE value="News hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="News hover" />
+    <MESSAGE value="Detail sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detail sidebar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604570637199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.12.1920.1040@0.0.1920.1040" timestamp="1604570637199" />
-    <state x="585" y="20" key="CommitChangelistDialog2" timestamp="1604675400967">
+    <state x="585" y="20" key="CommitChangelistDialog2" timestamp="1604920935881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="20" key="CommitChangelistDialog2/0.0.1920.1040/1920.12.1920.1040@0.0.1920.1040" timestamp="1604675400967" />
+    <state x="585" y="20" key="CommitChangelistDialog2/0.0.1920.1040/1920.12.1920.1040@0.0.1920.1040" timestamp="1604920935881" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1604914384833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -161,10 +161,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.12.1920.1040@0.0.1920.1040" timestamp="1604870972253" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604675562213">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604920950999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.12.1920.1040@0.0.1920.1040" timestamp="1604675562213" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.12.1920.1040@0.0.1920.1040" timestamp="1604920950999" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604914254897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
