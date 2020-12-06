@@ -1,0 +1,2 @@
+.btn,.btn2{width:100px;height:30px;position:absolute;left:450px;color:#fff}*,main{padding:0}*{margin:0;box-sizing:border-box}.btn{background:#1573e5;top:200px}.btn2{background:#154fe2;top:250px;font-size:1.2rem}main{margin:0 auto;display:grid;grid-template-columns:60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;width:600px}main .cell{height:61px;border:.01px solid #ccc}main .cell .ball{width:60px;height:60px;background:#f80909;margin:0;border-radius:60px}
+/*# sourceMappingURL=style.css.map */

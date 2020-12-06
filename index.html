@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Life</title>
+</head>
+<body>
+<button  class="btn">Setup</button>
+<!--<button  class="btn2" onclick="goon">Go!</button>-->
+<main id="parent">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+
+
+</main>
+
+
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
+        let main = document.querySelector('#parent'),
+            cell = document.querySelectorAll('.cell') ,
+            btn = document.querySelector('.btn') ,
+            btn2 = document.querySelector('.btn2') ,
+            preArr = [],
+            retArr = [];
+        cell.forEach((element,i) => {
+            element.style.background = '#1f211a';
+            preArr[i] = 0;
+            retArr[i] = 0;
+
+
+        })
+
+
+//
+        btn.addEventListener('click', function ()   {
+            this.style.background = '#e50e0e'
+
+            cell.forEach((element,i) => {
+                    element.style.background = '#1f211a';
+                    preArr[i] = 0;
+
+                    element.addEventListener('click', function () {
+                        element.innerHTML =  '<div class = "ball">1</div> ';
+                        preArr[i] = 1;
+
+                    })
+                }
+            )
+
+        })
+  //
+        function life(i) {
+            return  preArr[i-1] + preArr[i+1] + preArr[i-10] + preArr[i+10] + preArr[i-11] +
+                preArr[i+11] +preArr[i-9] +preArr[i +9 ]  ;
+
+        }
+//
+        let Repeat;
+
+        let goon = setInterval(go,3000);
+
+
+
+
+
+
+        function go() {
+            // this.style.background = '#e50e0e';
+            for (let n =11 ; n< 89 ; n++) {
+                if (preArr[n]) {
+                    switch (life(n)){
+                        case 2: retArr[n] = 1;break;
+                        case 3: retArr[n] = 1;break;
+                        default: retArr[n] = 0;
+                    }
+                }
+                else
+                { switch (life(n)){
+                    case 0: retArr[n] = 0;break;
+                    case 1: retArr[n] = 0;break;
+                    case 2: retArr[n] = 0;break;
+                    default: retArr[n] = 1;
+                }
+
+                }
+            }
+
+            retArr.forEach((element, i) => {
+                preArr[i] = retArr[i];
+                if (retArr[i] === 1) {
+                    cell[i].innerHTML = '<div class = "ball">1</div> ';
+                } else {
+                    cell[i].innerHTML = '';
+
+                }
+
+            })
+
+
+
+
+        }
+
+
+
+    })
+</script>
+
+</body>
+</html>
